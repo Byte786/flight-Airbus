@@ -1,0 +1,283 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url(/flights-Reuters.avif);
+  background-size: cover;
+}
+
+.main-nav {
+  display: flex;
+  background-color: rgb(51, 60, 187);
+  color: white;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 40;
+}
+
+.links a{
+  text-decoration: none;
+  color: white
+}
+
+.available{
+  /* background-color: rgb(50 6 128); */
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  /* padding: 0px 2px; */
+  width: 100%;
+  font-size: 50px;
+  font-weight: 150;
+}
+
+.airline-name{
+  color: rgb(36 18 79);
+  font-size: x-large;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.searchBar_div {
+  background-color: rgb(6, 18, 128);
+  color: #fff;
+  padding: 1rem;
+  margin-top: 24px;
+}
+
+.availFlight{
+  text-align: center;
+  font-size: x-large;
+}
+.ticket{
+  border: 2px solid rgb(1, 6, 19);
+  border-radius: 16px;
+  margin: 4px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #DCD6F7;
+  /* background-color: #D3CEDF ; */
+}
+
+.search_div {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.search{
+  padding-right: 8px;
+}
+
+.search-flight{
+  height: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+    background: rgb(5, 14, 108);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 16px;
+    border: 2px solid #DCD6F7;
+    border-radius: 8px;
+    /* padding: 8px; */
+    font-weight: bold;
+}
+
+.search-flight:hover{
+  border-radius: 16px;
+  background-color: #846cef;
+  color: rgb(36 18 79);
+}
+
+.d-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 10px; */
+  
+}
+.from{
+  padding: 2rem;
+  text-align: center;
+}
+
+.from p{
+  /* margin: -4px; */
+  text-align: center;
+}
+
+.from h5{
+  font-size: large;
+  margin-bottom: 1px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.book{
+  height: 40px;
+    text-transform: capitalize;
+    font-size: 12px;
+    border: none;
+    background: rgb(19, 144, 240);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 16px;
+    border: 2px solid #DCD6F7;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.book:hover{
+  border-radius: 16px;
+}
+
+.checkout{
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: #DCD6F7;
+  border-radius: 10px;
+/* position: absolute; */
+}
+
+.checkout,
+.checkout-wrapper{
+  position: relative;
+  top: 300px;
+  padding: 50px;
+  margin: 50px;
+  /* padding: 16px; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 300px;
+  background: #DCD6F7;
+  border-radius: 10px;  
+}
+
+.checkout h2{
+  color: rgb(237, 14, 207);
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgb(50 6 128);
+ }
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: #DCD6F7;
+  border-radius: 10px;
+}
+
+ .wrapper h2{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgb(50 6 128);
+ }
+
+ .wrapper form{
+  padding: 0 40px;
+  box-sizing: border-box;
+ }
+
+ form .inputBox{
+  position: relative;
+  border-bottom: 2px solid rgb(36 18 79);
+  margin: 30px 0;
+ }
+
+ .inputBox input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+ }
+
+ .inputBox label{
+  position: absolute;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+ }
+
+ .signup-link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(34, 212, 138);
+ }
+
+ .signup-link a{
+  color: rgb(45, 172, 211);
+  text-decoration: none;
+ }
+
+ .signup-link a:hover{
+  text-decoration: underline;
+ }
+
+ .button-p{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 0;
+  
+ }
+
+ .button-p p{
+  text-align: center;
+  margin-bottom: 1px;
+ }
+
+ .passenger-details{
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translate(-30%, -40%);
+  width: 500px;
+  background: #DCD6F7;
+  border-radius: 10px;
+ }
+
+ .checkout-wrapper{
+  position: absolute;
+  top: 50%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: #DCD6F7;
+  border-radius: 10px;
+  
+ }
+
+ .checkout-wrapper h2,
+ .passenger-details h2{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgb(31, 93, 180);
+ }
+
+ .checkout-wrapper form,
+ .passenger-details form{
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin: 8px;
+ }
